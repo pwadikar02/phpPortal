@@ -1,0 +1,142 @@
+
+ body{
+  background:url('bg.jpeg');
+
+ }
+.hdr0{
+    background-color: #666;
+    padding: 1%;
+    font-size:7mm;
+    color: white;
+    text-shadow: black ;
+    
+  }
+.right{
+    position: relative;
+    float:right ;
+    color: white;
+    width: 8%;
+    background-color:blue;
+    padding: 0.5% 1%;
+    margin: 0% 0%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.container1{
+  width: 40%;
+  margin:5% 30%;
+  background-color:lightgray;
+  border-radius:10px;
+  box-shadow:0px 1px 4px 4px;
+}
+
+/*div{
+background-color:lightgray;
+width:20%;
+margin:2% 40%;
+border-radius:10px;
+box-shadow:0px 1px 4px 4px;
+}*/
+ .r1 {
+  background-color:lightgray;
+  margin:5% 30%;
+  border-radius:10px;
+  box-shadow:0px 1px 4px 4px;
+  }
+  .r2{
+    background-color:lightgray;
+    margin:0% 38%;
+    border-radius:10px;
+    box-shadow:0px 1px 4px 4px;
+    }
+ /* label{
+  margin:18px;
+  }*/
+  input[type=text], select {
+    padding: 5px 10px;
+    margin: 12px 18px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+      padding: 5px 10px;
+      margin: 12px 18px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+  
+  input[type=tel], select {
+    padding: 5px 10px;
+    margin: 12px 18px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=email], select {
+    padding: 5px 10px;
+    margin: 12px 18px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=date], select {
+    padding: 5px 20px;
+    margin: 8px 18px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  select[option], select {
+    padding: 5px 10px;
+    margin: 12px 18px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=radio], select {
+    margin: 8px 18px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  input[type=submit] {
+    color: white;
+    width: 90%;
+    background-color:blue;
+    padding: 10px 20px;
+    margin: 8px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+  box-shadow:0px 1px 4px 4px;
+  
+  }
+  h1{
+  margin:20px 70%;
+  }
+  h2{
+    margin:20px 38%;
+    }
+  

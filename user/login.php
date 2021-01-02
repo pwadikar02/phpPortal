@@ -2,54 +2,83 @@
 <title>
 </title>
 <head>
-<link rel="stylesheet" href="../Resources/css/1style.css">
-    <script src="../Resources/js/script.js">
+<link rel="stylesheet" href="../Resources/css/.css">
+<link rel="stylesheet" href="../Resources/bootstrap/dist/css/bootstrap.css">
+<script src="../Resources/js/script.js">
 </script>
 </head>
-<header class="hdr0">
-<h3>College Portal</h3>
-<hr>
-<input type="button" onclick="window.location.href='register.php'" value="Register" class="right"><br>
+<body>
+<header>
+<!--<a href="#" class="navbar-left img-resposive "><img src="Resources/img_logo/bookLogo.jpg" width="120" height="60"></a><br>-->
 
+   <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a href="../index.php" class="navbar-brand">Emp Portal</a>
+    </div>
+    <!--<ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+    </ul>-->
+    <ul class="nav navbar-nav navbar-right">
+    <li><a href="register.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+    </ul>
+  </div>
+   </nav>
 </header>
+<div class="container">
+
+<div class="row">
+  <div class="col-sm-3 form-group">
+
+  </div>
+  <div class="col-sm-6 form-group">
+
+ 
+
+<div class="panel panel-default">
+<div class="panel-heading text-center"><b><span class="glyphicon glyphicon-log-in"></span> Login</b></div>
+  <div class="panel-body">
+
 <form action="test/insert.php" method="POST">
 
-<table class="r2">
-    <th>
-<h2><b>Login</b></h2>
-<hr>
-<hr>
+<div class="panel panel-default">
+<div class="panel-heading">Enter your </div>
+  <div class="panel-body">
 
-</th>
-<hr>
-<tr>
-<td>
+<div class="row">
+<div class="col-sm-12 form-group" style="background-color:;">
 <label for="username"><b>  Username:</b></label>
-<br>
-<input type="text" name="Username" placeholder="Enter your username" required> 
-</td>
-</tr>
-<br>
-<tr>
-    <td>
+<input type="text" name="Username" placeholder="Enter your username" class="form-control"> 
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-12 form-group">
 <label for="password"><b>  Password:</b></label>
-<br>
-<input type="password" name="password" placeholder="password" id="myPassword" required>
-<br>
-</td>
-</tr>
-<tr>
-    <td>
-<input type="checkbox" onclick="showPass()">Show Password
-<br>
-</td>
-</tr>
-<tr>
-    <td>
-<input type="submit" value="Login">
-</td>
-</tr>
-<br>
+
+<input type="password" name="password" placeholder="password" id="myPassword"  class="form-control"><br />
+
+<input type="checkbox" onclick="showPass()"> Show Password
+
+<input type="checkbox"> Remember Me
+</div>
+</div>
+
+  </div>
+</div>
 </form>
+  </div>
+<div class="panel-footer"><input input type="submit" value="Login" class="btn btn-primary btn-block"></button>
+</div>
+</div>
+</div>
+  <div class="col-sm-3 form-group">
+
+  </div>
+</div>
+</div>
+</body>
 
 </html>

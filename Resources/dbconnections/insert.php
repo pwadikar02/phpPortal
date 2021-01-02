@@ -1,7 +1,7 @@
 <?php
 //function OpenCon()
  
- $dbhost = "localhost:3308"; 
+ /*$dbhost = "localhost:3308"; 
  $dbuser = "root";
  $dbpass = "";
  $db = "college";
@@ -34,6 +34,18 @@
 
         mysqli_close($conn);
      }
+ }*/
+ if(isset($_POST['submit'])){
+   $first_name=$_POST['first_name'];
+   $middle_name=$_POST['middle_name'];
+   $last_name=$_POST['last_name'];
+ 
+   echo $first_name;
+   echo $middle_name;
+   echo $last_name;
+ } else{
+   header('Location:register.php');
+ 
  }
 
 ?>

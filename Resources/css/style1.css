@@ -3,6 +3,24 @@
   background:url('bg.jpeg');
 
  }
+
+/* ul.nav li a, ul.nav li a:visited {
+  color: #anycolor !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+  color: #anycolor !important;
+}
+
+ul.nav li.active a {
+  color: #anycolor !important;
+}*/
+
+a{
+  color: black !important;
+}
+
+
 .hdr0{
     background-color: #666;
     padding: 1%;
